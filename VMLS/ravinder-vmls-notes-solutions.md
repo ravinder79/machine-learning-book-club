@@ -85,14 +85,42 @@ b. The patient exhibits five out of the first ten symptoms. ??
 #### Exercise 10: Total score from course record  
 s = w<sup>T</sup>r  
 
-change each to same scale
-each homework weightage: 100/80 
-midterm weightage = 100/120 
-final exam weightage = 100/160 
-multiply by weightage
+change each to same scale:       
+Homework weightage: 100/80   
+midterm weightage = 100/120   
+final exam weightage = 100/160   
+multiply by weightage  
 
 s = 100/80  * 0.25 (r1,r2...r8, ) + 0.35 * 100/120 * r9  +  0.40 * 100/160 * r10
 
 w = (0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.2917, 0.25)
 
 #### Exercise 11: Word count and word count histogram vectors. 
+
+(a) What is 1<sup>T</sup>w?  
+Total number of words (sum) in the document  
+(b) What does w282 = 0 mean?
+Word 282 is not in the document  
+(c) w / total number of words (calculated above in a)  
+h =  w/ 1<sup>T</sup>w
+
+#### Exercise 12: Total cash value  
+Exchange rate vector e = (e1,e2,e3,e4,e5), here e1 = 1 (USD exhange rate)  
+***Total cash value = e<sup>T</sup>c***  
+
+#### Exercise 13: Average age in a population  
+(a) 1<sup>T</sup>x  
+(b) 1<sup>T</sup>x<sub>66:100</sub>   
+(c) average age = i<sup>T</sup>x/   1<sup>T</sup>x   
+    where i = (1,2,3...100)  
+
+#### Exercise 14: Industry or sector exposure    
+ long-only portfolio portfolio means all entries are positive   
+ neutral portfolio =  f<sup>T</sup> h = 0.  
+ Only way this could be zero is when each entry of h is zero? no investment?
+  
+
+#### Exercise 15 Cheapest supplier  
+
+
+
