@@ -131,5 +131,44 @@ to diversify we can choose two different cheapest suppliers however, it would co
 (a) product of two non-negative numbers is always non-negative. adding all non-negative number is always non-negative.  
 (b) Either both the vectors are zero or one of them is zero vector.  
 
-#### Exercise 17 
+#### Exercise 17  Linear combinations of cash flows.  
+
+
+
+#### Exercise 18 Linear combinations of linear combinations.   
+
+b1, b2 is linear combination of vectors a1 and a2  
+c is linear combination of b1 and b2  
+
+show that c is linear combination of a1 and a2
+
+b1 = β1*a1 + β2 * a2
+
+b2 = β3 * a1 +  β4 * a2
+
+c = β5 * b1 +  β6 * b2
+
+c = β5 * (β1*a1 + β2 * a2) +  β6 * (β3 * a1 +  β4 * a2)
+
+c = (β5 * β1 + β6 * β3  ) * a1  +  (β5 * β2) +  β6 *  β4) * a2
+
+#### Exercise 19 Auto-regressive model
+
+ M-vector β is the AR model coefficient vector.
+
+ (a) β ≈ e1
+ 
+ ***This means prediction at z<sub>t+1</sub> is equal to z<sub>t</sub>***
+
+ (b) β ≈ 2e1 − e2.  
+
+ ***z<sub>t+1</sub> = 2* z<sub>t</sub> - z<sub>t-1</sub>***
+
+
+(c) β ≈ e6.  
+  *** z<sub>t+1</sub> = prediction is same as value 6 days before***
+
+(d) β ≈ 0.5e1 + 0.5e2
+
+   ***z<sub>t+1</sub> = average of previous two days***
 
