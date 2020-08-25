@@ -121,6 +121,15 @@ Exchange rate vector e = (e1,e2,e3,e4,e5), here e1 = 1 (USD exhange rate)
   
 
 #### Exercise 15 Cheapest supplier  
+Calculate p<sub>i</sub><sup>T</sup> q  
+choose lowest value (vector notation)  
 
+to diversify we can choose two different cheapest suppliers however, it would cost more than just choosing a single lowest supplier??
 
+#### Exercise 16 Inner product of nonnegative vectors  
+
+(a) product of two non-negative numbers is always non-negative. adding all non-negative number is always non-negative.  
+(b) Either both the vectors are zero or one of them is zero vector.  
+
+#### Exercise 17 
 
