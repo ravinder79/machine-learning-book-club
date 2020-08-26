@@ -170,5 +170,25 @@ c = (β5 * β1 + β6 * β3  ) * a1  +  (β5 * β2) +  β6 *  β4) * a2
 
 (d) β ≈ 0.5e1 + 0.5e2
 
-   ***z<sub>t+1</sub> = average of previous two days***
+   ***z<sub>t+1</sub> = average of previous two days***  
+
+   #### Exercise 20
+
+How many bytes does it take to store 100 vectors of length 105?  
+Storing an n-vector requires 8n bytes to store.
+
+8 * 100 *  10<sup>5</sup>
+
+How many flops does it take to form a linear combination of them (with 100 nonzero coefficients)? 
+
+    Scalar-vector multiplication ax, where x is an n-vector, requires n multiplications, i.e., axi for i = 1, . . . , n. Vector addition x + y of two n-vectors takes n additions, i.e., xi + yi for i = 1, . . . , n.
+
+Coeffcient multiplication with each element of a vector = 100 * 10<sup>5</sup>   
+Adding 10<sup>5</sup>  elements for each of 100 vectors = 100 * 10<sup>5</sup>  
+
+***Total flop:  100 * 10<sup>5</sup>   + 100 * 10<sup>5</sup>   =   200 * 10<sup>5</sup>***
+
+About how long would this take on a computer capable of carrying out 1 Gflop/s?   
+
+***Time taken*** = 200 * 10<sup>5</sup> / 1000000000 = ***0.02 secs***
 
