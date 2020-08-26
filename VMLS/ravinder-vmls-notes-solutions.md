@@ -162,7 +162,7 @@ c = (β5 * β1 + β6 * β3  ) * a1  +  (β5 * β2) +  β6 *  β4) * a2
 
  (b) β ≈ 2e1 − e2.  
 
- ***z<sub>t+1</sub> = 2* z<sub>t</sub> - z<sub>t-1</sub>***
+ **z<sub>t+1</sub> = 2 * z<sub>t</sub> - z<sub>t-1</sub>**
 
 
 (c) β ≈ e6.  
