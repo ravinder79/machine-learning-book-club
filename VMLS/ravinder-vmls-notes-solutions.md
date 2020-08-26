@@ -18,7 +18,7 @@ c. incorrect notation - different sized vectors (10 vs 20)\
 d. correct notation\
 e. correct notation\
 f. incorect notation\
-g. correct notation\
+g. correct notation
 
 #### Exercise 3:
 
@@ -89,7 +89,8 @@ change each to same scale:
 Homework weightage: 100/80   
 midterm weightage = 100/120   
 final exam weightage = 100/160   
-multiply by weightage  
+
+Now multiply each term above by their corresponding weightage  
 
 s = 100/80  * 0.25 (r1,r2...r8, ) + 0.35 * 100/120 * r9  +  0.40 * 100/160 * r10
 
@@ -133,7 +134,7 @@ to diversify we can choose two different cheapest suppliers however, it would co
 
 #### Exercise 17  Linear combinations of cash flows.  
 
-
+??
 
 #### Exercise 18 Linear combinations of linear combinations.   
 
@@ -177,7 +178,7 @@ c = (β5 * β1 + β6 * β3  ) * a1  +  (β5 * β2) +  β6 *  β4) * a2
 How many bytes does it take to store 100 vectors of length 105?  
 Storing an n-vector requires 8n bytes to store.
 
-8 * 100 *  10<sup>5</sup>
+***8 * 100 *  10<sup>5</sup>***
 
 How many flops does it take to form a linear combination of them (with 100 nonzero coefficients)? 
 
