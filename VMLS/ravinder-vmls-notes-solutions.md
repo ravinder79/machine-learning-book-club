@@ -99,11 +99,13 @@ w = (0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.2917, 0.2
 #### Exercise 11: Word count and word count histogram vectors. 
 
 (a) What is 1<sup>T</sup>w?  
-Total number of words (sum) in the document  
-(b) What does w282 = 0 mean?
-Word 282 is not in the document  
+***Total number of words (sum) in the document***  
+
+(b) What does w282 = 0 mean?  
+***Word 282 is not in the document***   
+
 (c) w / total number of words (calculated above in a)  
-h =  w/ 1<sup>T</sup>w
+***h =  w/ 1<sup>T</sup>w***
 
 #### Exercise 12: Total cash value  
 Exchange rate vector e = (e1,e2,e3,e4,e5), here e1 = 1 (USD exhange rate)  
