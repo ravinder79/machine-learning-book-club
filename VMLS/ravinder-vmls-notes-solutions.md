@@ -12,19 +12,19 @@ c. Valid notation and true (stacked vector)
 
 #### Exercise 2:
 
-a. correct notation - same size vectors of addition/subtraction\
-b. correct notation - stacked vectors\
-c. incorrect notation - different sized vectors (10 vs 20)\
-d. correct notation\
-e. correct notation\
-f. incorect notation\
+a. correct notation - same size vectors of addition/subtraction  
+b. correct notation - stacked vectors  
+c. incorrect notation - different sized vectors (10 vs 20)  
+d. correct notation  
+e. correct notation  
+f. incorect notation  
 g. correct notation
 
 #### Exercise 3:
 
-a. correct notation and unambigous\
-b. correct notation but invalid (different size)
-c. correct but ambigous\
+a. correct notation and unambigous  
+b. correct notation but invalid (different size)  
+c. correct but ambigous  
 d. valid notation but incorrect
 
 
@@ -41,7 +41,7 @@ b. d = w<sub>1:24</sub>
  ***Zero cashflow on most days of the business***  
 (b) x represents the annual dollar value purchases by a customer of n products or services: ***Customer did not spend on most products or services in that year.***  
 (c) x represents a portfolio, say, the dollar value holdings of n stocks: ***portfolio contains only a few of n stocks***  
-(d) x represents a bill of materials for a project, i.e., the amounts of n materials needed: *** project requires only few of the n materials***.  
+(d) x represents a bill of materials for a project, i.e., the amounts of n materials needed:   ***project requires only few of the n materials***.  
 (e) x represents a monochrome image, i.e., the brightness values of n pixels: ***the image is mostly dark e.g. imaging a dark sky with few distant stars/galaxies***  
 (f) x is the daily rainfall in a location over one year. ***how it feels like living in death valley***    
 
@@ -64,7 +64,7 @@ p is profit/loss per item
 s is sales for each item  
 
 Total profit is inner product of p and s  
-p<sup>T</sup>s
+***p<sup>T</sup>s***
 
 
 #### Exercise 9: Symptoms vector  
@@ -169,7 +169,7 @@ c = (β5 * β1 + β6 * β3  ) * a1  +  (β5 * β2) +  β6 *  β4) * a2
 
 
 (c) β ≈ e6.  
-  *** z<sub>t+1</sub> = prediction is same as value 6 days before***
+  ***z<sub>t+1</sub> = prediction is same as value 6 days before***
 
 (d) β ≈ 0.5e1 + 0.5e2
 
