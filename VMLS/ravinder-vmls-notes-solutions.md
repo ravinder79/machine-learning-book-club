@@ -115,7 +115,7 @@ Exchange rate vector e = (e1,e2,e3,e4,e5), here e1 = 1 (USD exhange rate)
 (a) 1<sup>T</sup>x  
 (b) 1<sup>T</sup>x<sub>66:100</sub>   
 (c) average age = i<sup>T</sup>x/   1<sup>T</sup>x   
-    where i = (1,2,3...100)  
+    where i = (0, 1,2,3...99)  
 
 ### Exercise 14: Industry or sector exposure    
  long-only portfolio portfolio means all entries are positive   
