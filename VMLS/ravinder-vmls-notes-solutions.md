@@ -4,13 +4,13 @@
 
 ### Exercise solutions:
 
-#### Exercise 1:
+### Exercise 1:
 
 a. True and valid notation\
 b. Not a valid notation\
 c. Valid notation and true (stacked vector)
 
-#### Exercise 2:
+### Exercise 2:
 
 a. correct notation - same size vectors of addition/subtraction  
 b. correct notation - stacked vectors  
@@ -20,7 +20,7 @@ e. correct notation
 f. incorect notation  
 g. correct notation
 
-#### Exercise 3:
+### Exercise 3:
 
 a. correct notation and unambigous  
 b. correct notation but invalid (different size)  
@@ -28,14 +28,14 @@ c. correct but ambigous
 d. valid notation but incorrect
 
 
-#### Exercise 4: Periodic energy usage.
+### Exercise 4: Periodic energy usage.
 
 a. w = (d,d,d,d,d,d,d)\
 b. d = w<sub>1:24</sub>
 
 
 
-#### Exercise 5: Interpreting sparsity  
+### Exercise 5: Interpreting sparsity  
 
 (a) x represents the daily cash flow of some business over n days: 
  ***Zero cashflow on most days of the business***  
@@ -47,11 +47,11 @@ b. d = w<sub>1:24</sub>
 
   
 
-#### Exercise 6: Vector of differences.  
+### Exercise 6: Vector of differences.  
 
 x<sub>2:n</sub> - x<sub>1:n-1</sub>
 
-#### Exercise 7: Transforming between two encodings for Boolean vectors.
+### Exercise 7: Transforming between two encodings for Boolean vectors.
 x = (1,0,0, 1,) ---> (+1, -1, -1, +1)
 
 y = 2x -1 
@@ -59,7 +59,7 @@ y = 2x -1
 x = (y+1) * 1/2
 
 
-#### Exercise 8: Profit and sales vectors.
+### Exercise 8: Profit and sales vectors.
 p is profit/loss per item  
 s is sales for each item  
 
@@ -67,7 +67,7 @@ Total profit is inner product of p and s
 ***p<sup>T</sup>s***
 
 
-#### Exercise 9: Symptoms vector  
+### Exercise 9: Symptoms vector  
 ***Inner product   (Page 20)***   
 •  Unit vector. eTi a = ai. The inner product of a vector with the ith standard unit vector gives (or ‘picks out’) the ith element a.  
 • Sum. 1T a = a1 + · · · + an. The inner product of a vector with the vector of ones gives the sum of the elements of the vector.  
@@ -82,7 +82,7 @@ a. ***Total # of symptoms***  = 1<sup>T</sup>s
 b. The patient exhibits five out of the first ten symptoms. ??
 
 
-#### Exercise 10: Total score from course record  
+### Exercise 10: Total score from course record  
 s = w<sup>T</sup>r  
 
 change each to same scale:       
@@ -96,7 +96,7 @@ s = 100/80  * 0.25 (r1,r2...r8, ) + 0.35 * 100/120 * r9  +  0.40 * 100/160 * r10
 
 w = (0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.2917, 0.25)
 
-#### Exercise 11: Word count and word count histogram vectors. 
+### Exercise 11: Word count and word count histogram vectors. 
 
 (a) What is 1<sup>T</sup>w?  
 ***Total number of words (sum) in the document***  
@@ -107,23 +107,23 @@ w = (0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.3125, 0.2917, 0.2
 (c) w / total number of words (calculated above in a)  
 ***h =  w/ 1<sup>T</sup>w***
 
-#### Exercise 12: Total cash value  
+### Exercise 12: Total cash value  
 Exchange rate vector e = (e1,e2,e3,e4,e5), here e1 = 1 (USD exhange rate)  
 ***Total cash value = e<sup>T</sup>c***  
 
-#### Exercise 13: Average age in a population  
+### Exercise 13: Average age in a population  
 (a) 1<sup>T</sup>x  
 (b) 1<sup>T</sup>x<sub>66:100</sub>   
 (c) average age = i<sup>T</sup>x/   1<sup>T</sup>x   
     where i = (1,2,3...100)  
 
-#### Exercise 14: Industry or sector exposure    
+### Exercise 14: Industry or sector exposure    
  long-only portfolio portfolio means all entries are positive   
  neutral portfolio =  f<sup>T</sup> h = 0.  
  Only way this could be zero is when each entry of h is zero? no investment?
   
 
-#### Exercise 15 Cheapest supplier  
+### Exercise 15 Cheapest supplier  
 Calculate p<sub>i</sub><sup>T</sup> q  
 choose lowest value (vector notation?)  
 
