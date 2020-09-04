@@ -129,16 +129,16 @@ choose lowest value (vector notation?)
 
 To diversify, we can choose two different cheapest suppliers however, it would cost more than just choosing a single lowest supplier(??)
 
-#### Exercise 16 Inner product of nonnegative vectors  
+### Exercise 16 Inner product of nonnegative vectors  
 
 (a) product of two non-negative numbers is always non-negative. adding all non-negative number is always non-negative.  
 (b) Either both the vectors are zero or one of them is zero vector.  
 
-#### Exercise 17  Linear combinations of cash flows.  
+### Exercise 17  Linear combinations of cash flows.  
 
 ??
 
-#### Exercise 18 Linear combinations of linear combinations.   
+### Exercise 18 Linear combinations of linear combinations.   
 
 b1, b2 is linear combination of vectors a1 and a2  
 c is linear combination of b1 and b2  
@@ -155,7 +155,7 @@ c = β5 * (β1*a1 + β2 * a2) +  β6 * (β3 * a1 +  β4 * a2)
 
 c = (β5 * β1 + β6 * β3  ) * a1  +  (β5 * β2) +  β6 *  β4) * a2
 
-#### Exercise 19 Auto-regressive model
+### Exercise 19 Auto-regressive model
 
  M-vector β is the AR model coefficient vector.
 
@@ -175,7 +175,7 @@ c = (β5 * β1 + β6 * β3  ) * a1  +  (β5 * β2) +  β6 *  β4) * a2
 
    ***z<sub>t+1</sub> = average of previous two days***  
 
-   #### Exercise 20
+  ### Exercise 20
 
 How many bytes does it take to store 100 vectors of length 105?  
 Storing an n-vector requires 8n bytes to store.
